@@ -16,6 +16,8 @@ int main(){
     printf("Show me the calendar of the year of_ ");
     scanf("%d", &year);
 
+    printf("\n\n################ Calendar - %d ################\n", year);
+
     // Checking if it is leap year
     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
     {
